@@ -1,0 +1,176 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-wrapper{
+    background-color: #283964;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.hero-wrapper a{
+    color: #fff;
+}
+
+.hero{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-head{
+    font-size: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.head-fixed{
+    color: #33a34d;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.head-variable{
+    font-weight: bold;
+}
+
+.hero-banner{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.tab-bar{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.tab-data{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 15px;
+    padding: 20px 25px;
+}
+
+.tab-bar-item-chosen{
+    letter-spacing: 1px;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    padding: 9px 25px;
+}
+
+.tab-bar-item-chosen a{
+    color: blue;
+}
+
+.item-chosen a{
+    color: blue;
+}
+
+.tab-data-item{
+    display: flex;
+    align-items: center;
+}
+
+.item-details{
+    font-size: 0.8rem;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.hero-reviews{
+    width: 600px;
+    margin: 0 auto 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-stars, .review-trust{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.star-text, .trust-text{
+    margin-bottom: 8px;
+}
+
+.star-icons{
+    color: yellow;
+}
+
+.explore{
+    border-radius: 30px;
+    color: #fff;
+    background-color: #33a34d;
+    padding: 15px 35px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.hero-trending{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 0.75rem;
+    color: #aaa;
+}
+
+.hero-trending a{
+    font-size: 0.75rem;
+    color: #aaa;
+    padding: 5px 15px;
+    border-right: 1px solid #aaa;
+}
+
+.trending-item{
+    margin-bottom: 10px;
+    font-size: 0.75rem;
+    padding: 5px 15px;
+    display: flex;
+    letter-spacing: 1px;
+}
+
+.item-icon{
+    color: #33a34d;
+    font-size: 40px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.star-text{
+    letter-spacing: 0.5px;
+    color: #aaa;
+}
+
+.trust-details{
+    font-weight: bold;
+    letter-spacing: 0.7px;  
+}
+
+.tab-bar-item{
+    letter-spacing: 1px;
+    color: #000;
+}
